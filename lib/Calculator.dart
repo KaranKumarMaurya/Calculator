@@ -1,13 +1,5 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(MaterialApp(
-    debugShowCheckedModeBanner: false,
-    title: "Calculator",
-    home: Cal(),
-  ));
-}
-
 class Cal extends StatefulWidget {
   @override
   _CalState createState() => _CalState();
